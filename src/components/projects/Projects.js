@@ -7,9 +7,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import doc1 from '../../assets/doc1.png';
-import doc2 from '../../assets/doc2.png';   
+import doc2 from '../../assets/doc2.png';
 import doc3 from '../../assets/doc3.png';
-import doc4 from '../../assets/doc4.png'; 
+import doc4 from '../../assets/doc4.png';
 import foodOrder1 from '../../assets/foodOrder1.png';
 import foodOrder2 from '../../assets/foodOrder2.png';
 import foodOrder3 from '../../assets/foodOrder3.png';
@@ -98,6 +98,7 @@ const Projects = () => {
                     frameBorder="0"
                     allow="autoplay; fullscreen"
                     allowFullScreen
+                    title={project.title}
                   />
                 ) : (
                   <Swiper

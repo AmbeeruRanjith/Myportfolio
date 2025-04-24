@@ -1,0 +1,135 @@
+/* Education.css */
+.education-container {
+    padding: 60px 20px;
+    min-height: 100vh;
+    color: #ffffff;
+  }
+  
+  .education-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .education-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #ffffff;
+  }
+  
+  .education-timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .education-timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background: #333;
+  }
+  
+  .education-item {
+    position: relative;
+    margin-bottom: 60px;
+    width: 100%;
+    padding: 30px;
+    background: #111111;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+  }
+  
+  .education-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .education-item::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .institution-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .institution-location {
+    color: #888888;
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .degree {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .duration {
+    color: #666666;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  .score {
+    color: #00ff00;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .education-title {
+      font-size: 2rem;
+    }
+  
+    .education-timeline::before {
+      left: 20px;
+    }
+  
+    .education-item {
+      padding: 20px;
+    }
+  
+    .education-item::before {
+      left: 20px;
+    }
+  
+    .institution-name {
+      font-size: 1.25rem;
+    }
+  
+    .degree {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .education-container {
+      padding: 40px 15px;
+    }
+  
+    .education-title {
+      font-size: 1.75rem;
+    }
+  
+    .education-item {
+      padding: 15px;
+    }
+  }

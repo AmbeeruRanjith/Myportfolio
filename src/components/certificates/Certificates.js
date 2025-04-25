@@ -36,7 +36,7 @@ const Certificates = () => {
   return (
     <div className="certificates-container">
       <div className="certificates-content">
-        <h2 className="certificates-title">CERTIFICATES</h2>
+        <h2 className="certificates-title">CERTIFICATES & ACHIEVEMENTS</h2>
         <div className="certificates-grid">
           {certificates.map((cert, index) => (
             <div key={index} className="certificate-card">

@@ -6,8 +6,8 @@ const Contact = () => {
   const contactData = [
     {
       label: 'LinkedIn',
-      value: 'linkedin.com/in/ranjith-ambeeru321766252',
-      link: 'https://www.linkedin.com/in/ranjith-ambeeru-321766252/',
+      value: 'linkedin.com/in/ranjith-ambeeru',
+      link: 'https://www.linkedin.com/in/ranjith-ambeeru/',
       icon: <Linkedin />
     },
     {

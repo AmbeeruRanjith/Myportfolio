@@ -6,6 +6,7 @@ import Training from './components/Training/Training'
 import Certificates from './components/certificates/Certificates'
 import Education from './components/education/Education'
 import Contact from './contact/Contact'
+import VideoCV from './components/VideoCV/VideoCV'
 import Projects from './components/projects/Projects'
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Certificates/>
       <Education/>
       <Contact/>
+      <VideoCV/>
     </div>
   )
 }

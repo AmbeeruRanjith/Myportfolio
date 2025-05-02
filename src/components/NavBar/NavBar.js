@@ -16,6 +16,7 @@ const NavBar = () => {
     { title: 'Certification', to: 'certificates-container' },
     { title: 'Education', to: 'education-container' },
     { title: 'Contact', to: 'contact-container' },
+    { title: 'Video CV', to: 'video-cv-container' },
   ];
   const PDF_FILE_URL = '/Ranjith_CV_2025.pdf';
   const downloadFileAtURL=(url)=>{
